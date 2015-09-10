@@ -1,0 +1,20 @@
+
+case "$1" in
+  start)
+    echo "Starting collie"
+    # Start the daemon 
+    python $APP start $CF
+    ;;
+  stop)
+    echo "Stopping collie"
+    # Stop the daemon
+    python $APP stop
+    ;;
+  *)
+    # Refuse to do other stuff
+    echo "Usage: /etc/init.d/collie {start|stop}"
+    exit 1
+    ;;
+esac
+
+exit 0

@@ -1,0 +1,9 @@
+{
+	"server_name" : "bigeye7",
+	"role" : "goat",
+	"master_ip" : "166.111.131.63",
+	"port" : 3120,
+	"time_sep" : 3,
+	"conn_if" : "eth0",
+	"with_gpu" : "no"
+}
